@@ -65,7 +65,7 @@ int main(int argc, char** argv) {
 		system("cls");
 		
 	}
-		winner=Athlete::indexwinner(athlete, participants);
+		winner = Athlete::indexwinner(athlete, participants);
 		cout<<"\n The Winner is: "<<endl;
 		(athlete+winner)->showWinner();
 		
