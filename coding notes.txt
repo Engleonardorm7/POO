@@ -1,0 +1,2 @@
+&variable = direccion/ubicacion de la variable "variable"
+*dir = muestra lo que esta en la ubicacion de "dir"
