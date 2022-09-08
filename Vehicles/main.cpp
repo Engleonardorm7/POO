@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Turism.h"
+#include "Sport.h"
 using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
@@ -12,5 +13,10 @@ int main(int argc, char** argv) {
 	
 	cout<<"Model: "<<t1->modelreturn()<<endl;
 	
+	Sport *d1 = new Sport("Audi","Yellow","KP98",10);
+	cout<<"cylinder_capacity: "<<d1->getcylinder()<<endl;
+	cout<<"Brand: "<<d1->reportBrand()<<endl;
+	delete t1;
+	delete d1;
 	return 0;
 }

@@ -1,3 +1,7 @@
+//Guardian de inclusion multiple
+#ifndef VEHICULO_H
+#define VEHICULO_H
+//Para poder usar la clase en varias clases
 #include <iostream>
 using namespace std;
 
@@ -31,4 +35,5 @@ class Vehicle{
 			return color;
 		}
 };
+#endif
 
