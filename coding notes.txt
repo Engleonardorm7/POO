@@ -1,2 +1,21 @@
 &variable = direccion/ubicacion de la variable "variable"
 *dir = muestra lo que esta en la ubicacion de "dir"
+
+
+timpos de herencia
+
+privada
+protegida
+class CaseDerivada: protected ClaseBase{
+}
+herencia publica:
+class ClaseDerivada: Public ClaseBase{
+	private:
+	public:
+	protected:
+
+};
+
+
+clase C++ 3:52:00
+ realizar ejercicio
