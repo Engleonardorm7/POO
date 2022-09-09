@@ -17,5 +17,4 @@ class ClaseDerivada: Public ClaseBase{
 };
 
 
-clase C++ 3:52:00
- realizar ejercicio
+clase C++ 4:50:00
